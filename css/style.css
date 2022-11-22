@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "OpenSans-Light", Helvetica, Arial, sans-serif;
+}
+header {
+    background: #2d2f31;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+header nav {
+    display: flex;
+    justify-content:space-between;
+    max-width: 960px;
+    margin: auto;
+    padding: 0 30px;
+}
+header ul,
+footer ul {
+    font-family: "Roboto","OpenSans-Light", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+}
+header li,
+footer li {
+    display: inline-block;
+    padding: 15px 25px;
+    color: #ffffff;
+}
+header nav img {
+    width: 50px;
+    padding: 15px 0;
+}
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border 250ms ease-in-out;
+}
+header nav a:hover {
+    border-bottom: 1px solid #ffffff;
+}
+.image_src { 
+    width: 100%;
+    display:block;
+}
+footer {
+    background: #2d2f31;
+    padding-bottom: 10px;
+}
+.brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid transparent;
+}
+.brand span {
+    font-size: 28px;
+    font-weight: 400;
+    color: white;
+    font-family: "Roboto", "OpenSans-Light", Helvetica, Arial, sans-serif;
+    line-height: 1;
+    margin-left: 15px;
+}
+.brand img {
+    width: 35px;
+}
+.social {
+    display: flex;
+    justify-content: center;
+}
+.social a {
+    margin: 10px;
+}
+.social img {
+    width: 30px;
+}
+.copyright {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+footer ul {
+    justify-content: center;
+}
+.model-content {
+    display: none;
+    position: absolute;
+    background-color: #2d2f31;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.model-content a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.model-content a:hover {background-color: #121418;}
+.model:hover .model-content {display: block;}
+.info-model {
+    background-color: #2d2f31;
+}
+.binSign {
+    position: relative; 
+    padding: 10px;
+    float: left;
+    display: block;
+}
+.bin-txt {
+    float: left;
+    display: block;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    color: #ffffff;
+}
+.metrics {
+    position: relative;
+}

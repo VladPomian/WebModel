@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Рекомендательные системы</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/fonts.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,OpenSans-Light, Helvetica, Arial, sans-serif">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/popup.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav id="myTopnav">
+                <img src="img/logo.png" alt="Логотип сайта">
+                <ul class="menu">
+                    <li><a href="index.html" class="menu-element" title="На главную">Главная</a></li>
+                    <li><a href="#first-graphs" class="menu-element" title="ROC-кривая">ROC-кривая</a></li>
+                    <li><a href="#second-graphs" class="menu-element" title="PR-кривая">PR-кривая</a></li>
+                    <li>
+                        <div class="model">
+                            <a href="https://colab.research.google.com/drive/1wezzhJdMiptVFZNgjkN4r3MjVS6gRotZ" class="menu-element" title="Модель на сайте">Google Colab</a>
+                            <div class="model-content">
+                                <a>Ключ для входа:</a>
+                                <a>vladpomian1@gmail.com</a>
+                                <a>1naimopdalv</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div id="hamburger" class="icon">&#9776;</div>
+            </nav>
+        </header>
+        <main>
+            <section id="top">
+                <img class="image_src" src="https://ibagroup.kz/wp-content/uploads/2019/11/baner_1300-357_ml.gif" alt="Обложка страницы">
+            </section>
+            <section id="img-model" class="info-model">
+                <section id="bin" class="bin">
+                    <img class="binSign" src="img/Отображение модели/1.png" alt="Распределение бинарного признака">
+                    <a class="bin-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo doloremque voluptas repellendus aperiam accusantium quis obcaecati. Ipsam temporibus, delectus cupiditate nostrum voluptas repellat soluta vero facere laudantium quaerat commodi aliquam?</a>
+                </section>
+                <section id="metr"><img class="metrics" src="img/Отображение модели/2.png" alt="Метрики качества"></section>
+                <section id="bagged"><img class="bagged" src="img/Отображение модели/3.png" alt="Пакетная модель"></section>
+                <section id="check"><img class="non-retraining" src="img/Отображение модели/4.png" alt="Проверка непереобученности"></section>
+                <section id="first-graphs"><img class="ROC" src="img/Отображение модели/ROC.png" alt="ROC-кривая"></section>
+                <section id="second-graphs"><img class="PR" src="img/Отображение модели/PR.png" alt="PR-кривая"></section>
+                <section id="first-matrix"><img class="confusion-matrix" src="img/Отображение модели/Матрица путаницы.png" alt="Матрица путаницы"></section>
+                <section id="second-matrix"><img class="metric-matrix" src="img/Отображение модели/Матрица метрики.png" alt="Матрица метрики"></section>
+            </section>
+        </main>
+        <footer>
+            <div class="brand">
+                <img src="img/logo.png" alt="Логотип сайта">
+                <span>RECOMMENDER SYSTEMS</span>
+            </div>
+            <div class="social">
+                <a href="#" title="Facebook" target="_blank">
+                    <img class="social-img" src="img/social/001-facebook.png" alt="Facebook">
+                </a>
+                <a href="#" title="LinkedIn" target="_blank">
+                    <img class="social-img" src="img/social/004-linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="#" title="Instagram" target="_blank">
+                    <img class="social-img" src="img/social/005-instagram.png" alt="Instagram">
+                </a>
+                <a href="#" title="Twitter" target="_blank">
+                    <img class="social-img" src="img/social/007-twitter.png" alt="Twitter">
+                </a>
+                <a href="#" title="Tumblr" target="_blank">
+                    <img class="social-img" src="img/social/010-tumblr.png" alt="Tumblr">
+                </a>
+            </div>
+            <div class="copyright">© Created with Love 2022</div>
+        </footer>
+    </body>
+</html>
